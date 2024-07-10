@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -8,6 +9,7 @@ body {
 
 header {
     background: #50b3a2;
+    color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
@@ -15,50 +17,37 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    background: #333;
 }
 
 nav a {
     color: #fff;
+    padding: 0.75rem;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-main {
-    padding: 2rem;
-    max-width: 800px;
+nav a:hover {
+    background: #50b3a2;
+}
+
+.container {
+    max-width: 1100px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
-.welcome {
-    text-align: center;
-    padding: 2rem 0;
-}
-
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-}
-
-.blog {
+section {
     background: #fff;
-    padding: 2rem;
+    margin: 1rem 0;
+    padding: 1rem;
     border-radius: 8px;
-    margin-top: 2rem;
 }
 
-.blog article {
-    margin-bottom: 1.5rem;
-}
-
-.blog h3 {
-    margin: 0;
-}
-
-.blog p {
-    color: #666;
+section img {
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
 }
 
 footer {
@@ -66,5 +55,5 @@ footer {
     padding: 1rem 0;
     background: #333;
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
