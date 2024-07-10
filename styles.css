@@ -43,6 +43,10 @@ section {
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 8px;
+    text-align: justify;
+}
+
+section h2, section h3 {
     text-align: center;
 }
 
@@ -60,8 +64,4 @@ footer {
     background: #333;
     color: #fff;
     margin-top: 1rem;
-}
-
-#about {
-    text-align: center;
 }
