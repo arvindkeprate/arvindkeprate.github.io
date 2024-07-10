@@ -45,9 +45,9 @@ section {
     border-radius: 8px;
 }
 
-#about img {
+#welcome img {
     display: block;
-    margin: 0 auto 1rem;
+    margin: 0 auto;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -63,12 +63,4 @@ footer {
 
 #about {
     text-align: center;
-}
-
-#welcome img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
 }
