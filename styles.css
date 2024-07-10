@@ -43,6 +43,7 @@ section {
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 8px;
+    text-align: center;
 }
 
 #welcome img {
