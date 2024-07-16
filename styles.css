@@ -1,4 +1,18 @@
-/* Add this to your existing styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #50b3a2;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
 
 nav {
     display: flex;
@@ -22,6 +36,40 @@ nav a:hover, .dropbtn:hover {
     background: #50b3a2;
 }
 
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+section h2, section h3 {
+    text-align: center;
+}
+
+#welcome img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 1rem;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -42,7 +90,39 @@ nav a:hover, .dropbtn:hover {
     background-color: #50b3a2;
 }
 
-.dropdown {
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav .dropdown {
     position: relative;
     display: inline-block;
+}
+
+nav .dropdown .dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 0.75rem;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+nav .dropdown .dropbtn:hover {
+    background-color: #50b3a2;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a, .dropbtn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        position: relative;
+    }
 }
