@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Arvind Keprate</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleDropdown() {
+            var dropdownContent = document.getElementById("researchDropdown");
+            if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+                dropdownContent.style.display = "block";
+            } else {
+                dropdownContent.style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
 
@@ -15,12 +25,10 @@
         <a href="cv.html">CV</a>
         <a href="publications.html">Publications</a>
         <a href="contact.html">Contact</a>
-        <div class="dropdown">
-            <button class="dropbtn">Research</button>
-            <div class="dropdown-content">
-                <a href="research_area1.html">Research Area 1</a>
-                <a href="research_area2.html">Research Area 2</a>
-            </div>
+        <button class="dropbtn" onclick="toggleDropdown()">Research</button>
+        <div id="researchDropdown" class="dropdown-content">
+            <a href="research_area1.html">Research Area 1</a>
+            <a href="research_area2.html">Research Area 2</a>
         </div>
     </nav>
 </header>
