@@ -1,18 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background: #50b3a2;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
+/* Add this to your existing styles.css */
 
 nav {
     display: flex;
@@ -21,47 +7,43 @@ nav {
     margin-top: 1rem;
 }
 
-nav a {
+nav a, .dropbtn {
     color: #fff;
     padding: 0.75rem;
     text-decoration: none;
     text-transform: uppercase;
+    display: inline-block;
 }
 
-nav a:hover {
+nav a:hover, .dropdown:hover .dropbtn {
     background: #50b3a2;
 }
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 1rem;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-section {
-    background: #fff;
-    margin: 1rem 0;
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: justify;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
 }
 
-section h2, section h3 {
-    text-align: center;
-}
-
-#welcome img {
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    text-align: left;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #333;
-    color: #fff;
-    margin-top: 1rem;
+.dropdown-content a:hover {
+    background-color: #50b3a2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
