@@ -1,7 +1,0 @@
-title: Dr. Arvind Keprate
-#email: arvind.keprate@example.com
-#description: Welcome to my personal website. Explore my work, research interests, and hobbies here.
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://arvindkeprate.github.io" # the base hostname & protocol for your site
-show_downloads: true
-theme: jelyll-theme-minimal
