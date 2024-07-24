@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Arvind Keprate</title>
+    <title>Publications - Dr. Arvind Keprate</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero-section {
+            position: relative;
+            height: 60vh;
+            background: url('cover_image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .hero-section h1 {
+            font-size: 4rem;
+            margin-bottom: 0;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+        .rounded-circle {
+            border: 5px solid #50b3a2;
+        }
+    </style>
 </head>
 <body>
     <header class="bg-primary text-white text-center py-4">
@@ -31,12 +56,15 @@
             </ul>
         </div>
     </nav>
-
+    
+    <div class="hero-section">
+        <h1>Welcome to My Personal Website</h1>
+        <p>Namaste! I'm Dr. Arvind Keprate, a professor and researcher in Mechanical Engineering. Explore my work, research interests, and hobbies here.</p>
+    </div>
+    
     <div class="container mt-4">
         <section id="welcome" class="text-center">
             <img src="your-photo.jpg" alt="Dr. Arvind Keprate" class="rounded-circle img-fluid" style="width: 200px;">
-            <h3>Welcome to My Personal Website</h3>
-            <p>Hello! I'm Dr. Arvind Keprate, a professor and researcher in Mechanical Engineering. Explore my work, research interests, and hobbies here.</p>
         </section>
         
         <section id="about" class="mt-5">
