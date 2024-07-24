@@ -1,128 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-header {
-    background: #50b3a2;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+h1, h2, h3 {
+    color: #333;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    background: #333;
-    margin-top: 1rem;
+.navbar {
+    margin-bottom: 20px;
 }
 
-nav a, .dropbtn {
-    color: #fff;
-    padding: 0.75rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    background: none;
-    border: none;
-    cursor: pointer;
+.navbar-nav .nav-link {
+    color: #fff !important;
 }
 
-nav a:hover, .dropbtn:hover {
-    background: #50b3a2;
+.navbar-nav .nav-link:hover {
+    color: #50b3a2 !important;
 }
 
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 1rem;
-}
-
-section {
-    background: #fff;
-    margin: 1rem 0;
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: justify;
-}
-
-section h2, section h3 {
-    text-align: center;
-}
-
-#welcome img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    max-width: 900px;
 }
 
 footer {
-    text-align: center;
-    padding: 1rem 0;
     background: #333;
     color: #fff;
-    margin-top: 1rem;
+    padding: 10px 0;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #50b3a2;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-nav .dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-nav .dropdown .dropbtn {
-    background-color: #333;
-    color: white;
-    padding: 0.75rem;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-nav .dropdown .dropbtn:hover {
-    background-color: #50b3a2;
-}
-
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
-
-    nav a, .dropbtn {
-        width: 100%;
-        text-align: center;
-    }
-
-    .dropdown-content {
-        position: relative;
-    }
+.rounded-circle {
+    border: 5px solid #50b3a2;
 }
