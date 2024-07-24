@@ -38,7 +38,7 @@ footer {
     position: relative;
     height: 60vh;
     background: url('assets/images/your-selected-image.jpg') no-repeat center center/cover;
-    color: yellow;
+    color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -49,10 +49,10 @@ footer {
 
 .hero-section h1 {
     font-size: 4rem;
-    margin-bottom: 0;
+    margin-bottom: 2px;
 }
 
 .hero-section p {
     font-size: 1.5rem;
-    margin-top: 0;
+    margin-top: 1px;
 }
