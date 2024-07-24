@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    margin: 0; /* Ensure no margins around the body */
 }
 
 h1 {
@@ -26,7 +27,9 @@ h2, h3 {
 }
 
 .container {
-    max-width: 900px;
+    width: 100%;
+    margin: 0;
+    padding: 0 15px; /* Optional: add some padding for better readability */
 }
 
 footer {
