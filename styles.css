@@ -17,6 +17,7 @@ h2, h3 {
 }
 
 .navbar-nav .nav-link {
+    font-size: 2rem; /* Increased font size */
     color: #fff !important;
 }
 
