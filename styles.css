@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    margin: 0; /* Ensure no margins around the body */
 }
 
 h1 {
@@ -18,7 +17,7 @@ h2, h3 {
 }
 
 .navbar-nav .nav-link {
-    font-size: 4rem; /* Increased font size */
+    font-size: 2rem; /* Increased font size */
     color: #fff !important;
 }
 
@@ -27,9 +26,7 @@ h2, h3 {
 }
 
 .container {
-    width: 100%;
-    margin: 0;
-    padding: 0 15px; /* Optional: add some padding for better readability */
+    max-width: 900px;
 }
 
 footer {
